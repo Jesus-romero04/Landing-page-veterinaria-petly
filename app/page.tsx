@@ -608,10 +608,7 @@ export default function Home() {
                     </span>
                   </div>
 
-                  {/* Matrícula — siempre visible abajo */}
-                  <div className="absolute bottom-4 left-4">
-                    <span className="text-white/60 text-[11px] font-medium">{vet.matricula}</span>
-                  </div>
+
 
                   {/* Contenido hover — bio + linkedin */}
                   <div className="absolute inset-0 p-5 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-3 group-hover:translate-y-0">
